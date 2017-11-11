@@ -19,6 +19,8 @@
 ---------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+@import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
 /*-------------------------*/
 /* $Reset
 ---------------------------*/
@@ -266,7 +268,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'cwTeXHei', sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -501,17 +503,17 @@ template {
 ---------------------------*/
 /* Global */
 body, html{
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
 }
 /* heading */
 h1,h2,h3,h4,h5,h6{
   margin: 0;
-  color: #484848;
+  color: #dcb677;
 }
 h1{
   font-size: 80px;
   font-weight: 800;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px; 
 }
@@ -519,14 +521,14 @@ h1{
 h2{
   font-size: 48px;
   font-weight: 600;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 h3{
   font-size: 40px;
   font-weight: 600;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   line-height: 48px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -534,7 +536,7 @@ h3{
 h4{
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   line-height: 32px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -542,7 +544,7 @@ h4{
 h5{
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   line-height: 1;
   margin-top: 24px;
   margin-bottom: 16px;
@@ -550,7 +552,7 @@ h5{
 h6{
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   line-height: 32px;
   margin-top: 24px;
   margin-bottom: 16px;
@@ -558,14 +560,14 @@ h6{
 p{
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'cwTeXHei', 'roboto', arial, sans-serif;
   line-height: 32px;
   letter-spacing: 0;
 }
 .subtitle{
   font-size: 48px;
   font-weight: 900;
-  font-family: 'Raleway','Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'Raleway','cwTeXHei', 'roboto', arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
