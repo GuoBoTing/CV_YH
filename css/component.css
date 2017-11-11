@@ -36,21 +36,22 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #1c1c1c
+	background-image: url(../images/bg2-01.jpg);:
 	background-size: cover;
-	background-position: -200px 0px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-/*.bg:after{
+.bg:after{
 	content: "";
 	position: absolute;
 	top: 0;
 	left:0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to right, black, #808587);
+	background: black;
 	opacity: 0.6;
-}*/
+}
 
 /* lean-bg */
 
@@ -314,13 +315,12 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #1c1c1c;
+	background-color: rgba(255,255,255,0); ;
 	z-index: 100;
 	transition: all 0.3s;
 }
 .header-colored {
-	background-color: #fefefe;
-	box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+	background-color: rgba(255,255,255,0.3);
 }
 .header-colored .navbar__info-bar .icon-btn{
 	color:#fefefe;
