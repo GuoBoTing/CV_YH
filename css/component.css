@@ -510,15 +510,7 @@
 		font-size: 24px; 
 	}
 }
-@media (max-width: 480px){
-	.hero__heading{
-		text-align: center;
-	}
-	.hero__title{
-		text-align: center;
-	}
-	}
-}
+
 /* $Who
 ---------------------------*/
 .who{
