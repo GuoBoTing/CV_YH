@@ -490,10 +490,6 @@
 	.hero__photo{
 		display: none;
 	}
-	.hero-content a{
-		left: 50%;
-		transform: translateX(-50%);
-	}
 }
 .hero__heading{
 	font-size: 66px;
