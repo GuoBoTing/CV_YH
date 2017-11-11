@@ -794,7 +794,7 @@
 .form input[type="email"]:focus,
 .form textarea:focus{
 	outline: 0;
-	border: 1px solid#fefefe;
+	border: 1px solid #dcb677;
 }
 .form textarea{
 	resize: none;
